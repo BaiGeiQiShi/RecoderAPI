@@ -40,7 +40,7 @@ git clone https://github.com/BaiGeiQiShi/RecoderAPI.git
 cd ./RecoderAPI
 ./setup.sh
 ```
-② [Download](https://drive.google.com/file/d/1XWyx-uPOnV0tEIMaWTkAd3yaaxYD-sbh/view?usp=drive_link) the pre-trained model and unzip this model.
+② [Download](https://drive.google.com/file/d/1XWyx-uPOnV0tEIMaWTkAd3yaaxYD-sbh/view?usp=drive_link) the pre-trained model in the `RecoderAPI` directory and unzip this model.
 ```
 unzip ./checkpointSearch.zip
 ```
