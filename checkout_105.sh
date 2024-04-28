@@ -29,3 +29,5 @@ do
 << 'COMMENT'
 COMMENT
 done
+
+cp -r ${ROOT_DIR}/* $SCRIPT_DIR/105_bugs_with_src_backup/
