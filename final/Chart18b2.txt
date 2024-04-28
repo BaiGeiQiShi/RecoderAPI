@@ -1,0 +1,927 @@
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.rowKeys.iterator();=455=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.columnKeys.iterator();=455=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.rows.iterator();=455=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$clear();=455=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.columnKey.iterator();=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$final Iterator iterator = this.rows.iterator();=455=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$return;=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.rows.iterator();=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if((this.rows.iterator() != null)){=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = ;=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.iterator();=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = iterator();=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = null;=455=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$if((this.rows.iterator() == null)){ return; }=455=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$super.removeColumn();=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$if((this.rows == null)){ return; }=455=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$if((columnKey == null)){ return; }=455=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = rows;=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.rowKeys.rows.iterator();=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.columnKeys.rows.iterator();=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.rows.rows.iterator();=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.getRowKeys().rows.iterator();=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.getColumnKeys().rows.iterator();=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.rows;=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$if((rows == null)){ return; }=455=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if((columnKey != null)){=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$iterator();=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$if((this.rows != null)){ return; }=455=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if((this.rows != null)){=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if((this.rows.iterator() == null)){=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$this.columnKey = columnKey;=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.rows.removeColumn();=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if((rows != null)){=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.rows.iterator().iterator();=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.rows.removeRow(columnKey);=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.rows.removeColumn(columnKey);=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.rows.hasNext();=455=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$DefaultKeyedValues rowData = iterator.next();=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$DefaultKeyedValues rowData = (DefaultKeyedValues)iterator.next();=457=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$return;=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if((iterator instanceof DefaultKeyedValues)){=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if(iterator.hasNext()){=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$final DefaultKeyedValues rowData = (DefaultKeyedValues)iterator.next();=457=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$DefaultKeyedValues rowData = (DefaultKeyedValues)columnKey.next();=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$clear();=457=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$DefaultKeyedValues rowData = ;=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if((iterator != null)){=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$rowData.rebuildIndex();=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$rowData.clear();=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$iterator.next();=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$rowData.removeValue(columnKey);=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$DefaultKeyedValues rowData = (DefaultKeyedValues)iterator.removeColumn();=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$DefaultKeyedValues rowData = (DefaultKeyedValues)(DefaultKeyedValues)iterator.next();=457=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$DefaultKeyedValues rowData = (DefaultKeyedValues)rowData.next();=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if((this.columnKeys.remove(columnKey) instanceof DefaultKeyedValues)){=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$this.columnKeys.remove(columnKey);=457=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if((iterator.next() instanceof DefaultKeyedValues)){=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if((this.rows.iterator() instanceof DefaultKeyedValues)){=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$DefaultKeyedValues rowData = null;=457=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$DefaultKeyedValues rowData = iterator;=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if((iterator == null)){=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$DefaultKeyedValues rowData = this.rows.iterator();=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=delete:0,1=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$DefaultKeyedValues rowData = (DefaultKeyedValues).next();=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$break;=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$continue;=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this;=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$Iterator iterator = this.rows.iterator();=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$DefaultKeyedValues rowData = (DefaultKeyedValues)iterator.removeValue();=457=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue(columnKey);=458=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue(rowData);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if((rowData != null)){=458=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue(iterator);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$return;=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeColumn(columnKey);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$rowData.rebuildIndex();=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$rowData.clear();=458=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue(columnKey, rowData);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue();=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if((rowData == null)){=458=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue(this);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if((columnKey != null)){=458=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue(columnKeys);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue();=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue(columnKey, false);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue(this, columnKey);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.debug(columnKey);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue(columnKey, true);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$iterator.removeValue(columnKey);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue(rows);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue(rowData.columnKeys);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.add(columnKey);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData = rowData.removeValue(columnKey);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue(columnKey, columnKey);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue(columnKey, iterator);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue(columnKey, null);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$rowData.removeValue(false);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$columnKey.removeValue(columnKey);=458=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$return;=458=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$return;=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.rowKeys.remove(columnKey);=460=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.columnKeys.remove(columnKey);=460=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.rows.remove(columnKey);=460=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$remove(columnKey);=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.columnKeys.remove(rowData);=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.columnKeys.removeColumn(columnKey);=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$break;=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.columnKeys.remove(iterator);=460=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$rowData.rebuildIndex();=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$rowData.clear();=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.iterator.remove(columnKey);=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.columnKey.remove(columnKey);=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$removeRow(columnKey);=460=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$removeColumn(columnKey);=460=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.rowData.remove(columnKey);=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$continue;=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if((this.columnKeys != null)){=460=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.remove(columnKey);=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$clear();=460=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.columnKeys.remove(rows);=460=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$this.rows.remove(columnKey);=460=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.columnKeys.removeRow(columnKey);=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.columnKeys.iterator();=460=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$this.clear();=460=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$this.columnKeys.remove(columnKey);=460=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this..remove(columnKey);=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.columnKeys.removeValue(columnKey);=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=insert-before:0$rowData.removeValue(columnKey);=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.columnKeys.remove();=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if(iterator.hasNext()){=460=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=delete:0,1=460=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=wrap:0,1$if((this.columnKeys == null)){=460=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java=replace:0,1$this.columnKeys.debug(columnKey);=460=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.remove(index);=316=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.remove(index);=316=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.index.remove(index);=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=316=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=316=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.removeValue(index);=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.keys.remove(index);=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.keys.remove(index);=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.keys != null)){=316=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue(index);=316=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$remove(index);=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.remove(index);=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys.remove(index);=316=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys.rebuildIndex();=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys.clear();=316=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.keys.remove(index) != null)){=316=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this..remove(index);=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$super.removeValue();=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.keys == null)){=316=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.index = index;=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.rebuildIndex(index);=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.remove(keys);=316=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((this.keys == null)){ return; }=316=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.remove(values);=316=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.remove();=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.keys == index)){=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((index < this.keys.size())){=316=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.debug(index);=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.add(index);=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.e(index);=316=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.remove(index);=317=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.remove(index);=317=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=317=Pass
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=317=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=317=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.index.remove(index);=317=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$remove(index);=317=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.removeValue(index);=317=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue(index);=317=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.remove(index);=317=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.remove(keys);=317=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.values.remove(index);=317=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.values != null)){=317=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.values.rebuildIndex();=317=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.values.clear();=317=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this..remove(index);=317=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.remove(this);=317=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.remove(this.keys.size());=317=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.remove(this, index);=317=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.index = index;=317=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.values == null)){=317=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.remove();=317=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$rebuildIndex();=317=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.rebuildIndex(index);=317=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=delete:0,1=317=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys.remove(index);=317=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index >= this.keys.size())){=318=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index <= this.keys.size())){=318=Pass
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index < this.keys.size())){=318=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index < this.values.size())){=318=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index > this.keys.size())){=318=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index < this.index.size())){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=318=Pass
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=318=Pass
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index < this.keys.keys.size())){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index < this.values.keys.size())){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index == this.keys.size())){=318=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((values < this.keys.size())){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((keys < this.keys.size())){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(this.keys.size()){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(this.keys.size()){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(this.index.size()){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index - this.keys.size())){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((this.keys.size() < this.keys.size())){=318=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index < this.keys.removeValue())){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.values.size();=318=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index < this.keys.rebuildIndex())){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index < this..size())){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(this.index..keys.size()){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index != this.keys.size())){=318=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.index = index;=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.keys != null)){=318=Pass
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.index = 0;=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(this.keys.remove(this.keys.size())){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((this.keys < this.keys.size())){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.keys == null)){=318=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index >> this.keys.size())){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys.remove(index);=318=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index >>> this.keys.size())){=318=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((this.keys.size() > this.keys.size())){=318=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int index = getIndex(key);=333=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=333=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=333=Pass
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final int index = getIndex(key);=333=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((key == null)){ return; }=333=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$getIndex(key);=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int index = removeValue(key);=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((key != null)){ return; }=333=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int index = getIndex(key, false);=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$long index = getIndex(key);=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int index = getIndex(key, true);=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((key == 0)){ return; }=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int index = getIndex();=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$super.removeValue();=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int index = getIndex(key, 0);=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int index = getIndex(key, 1);=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((key != null)){=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((key != 0)){ return; }=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$index = getIndex(key);=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if(key){ return; }=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$boolean index = getIndex(key);=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int index = getIndex(index);=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int index = key;=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$super.removeValue(key);=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if(!key){ return; }=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((key == null)){=333=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index >= 0)){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index <= 0)){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index > 0)){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index < 0)){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index == 0)){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(index){=334=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index != 0)){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index < index)){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key < 0)){=334=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((index < 0) || (index >= 0))){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index < (index < 0))){=334=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((index < 0) || (index < index))){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((index < 0) || (index <= index))){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((index < 0) || (index < key))){=334=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(( < 0)){=334=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index < 0)){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((index < 0) || (index <= key))){=334=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((index < 0) || (index > index))){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index - 0)){=334=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((index < 0) || (index > key))){=334=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((index < 0) && (index > 0))){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((index < 0) || (index >= index))){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((index < 0) || (index < 0))){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((index < 0) || (index >= key))){=334=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((index < 0) && (index < 0))){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((index < 0) || (index <= 0))){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index > index)){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((index == null)){ return; }=334=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((index < 0) && (index >= 0))){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((index < 0) || (index > 0))){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((index != null)){=334=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((index < 0) && (index > index))){=334=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((index != null)){ return; }=334=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue(index);=337=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=337=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=337=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue();=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((index != null)){=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$break;=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue();=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if(key){ return; }=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue(key);=337=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$getIndex(index);=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if(index){ return; }=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((index != null)){ return; }=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue(index, false);=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$index = removeValue(index);=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue(index, true);=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((key != null)){=337=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue(index, 0);=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return removeValue(index);=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((index == null)){ return; }=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$continue;=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((key != null)){ return; }=337=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue(index, null);=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((index > 0)){ return; }=337=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue(index, 1);=337=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((key == null)){ return; }=337=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((index == 0)){ return; }=337=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$this.data.removeColumn(columnKey);=350=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$this.data.removeRow(columnKey);=350=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=insert-before:0$clear();=350=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$this.columnKey.removeColumn(columnKey);=350=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=wrap:0,1$if((this.data != null)){=350=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=insert-before:0$super.removeColumn();=350=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=wrap:0,1$if((this.data == null)){=350=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$this.data.data.removeColumn(columnKey);=350=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=insert-before:0$return;=350=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$removeRow(columnKey);=350=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$removeColumn(columnKey);=350=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=insert-before:0$super.removeColumn(columnKey);=350=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=wrap:0,1$if((this.data.removeColumn(columnKey) != null)){=350=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=insert-before:0$this.data.removeColumn(columnKey);=350=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$this.removeColumn(columnKey);=350=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=insert-before:0$this.data.clear();=350=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$this.data.removeColumn();=350=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=insert-before:0$this.columnKey = columnKey;=350=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=insert-before:0$if((this.data == null)){ return; }=350=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=wrap:0,1$if((data != null)){=350=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$removeColumn();=350=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=wrap:0,1$if((columnKey != null)){=350=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=wrap:0,1$if((this.data == columnKey)){=350=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=wrap:0,1$if((this.data != columnKey)){=350=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=wrap:0,1$if((data == null)){=350=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$this.data.fireDatasetChanged(columnKey);=350=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$this.data.debug(columnKey);=350=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$this.data.add(columnKey);=350=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=insert-before:0$clear();=351=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$fireDatasetChanged(columnKey);=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$fireDatasetChanged();=351=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$fireDatasetChanged(data);=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$fireDatasetChanged(this);=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$removeColumn();=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$fireDatasetChanged(false);=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$fireDatasetChanged(true);=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=insert-before:0$this.clear();=351=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=insert-before:0$this.data.removeColumn(columnKey);=351=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=insert-before:0$super.removeColumn();=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=insert-before:0$this.data.clear();=351=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$return fireDatasetChanged();=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$fireDatasetChanged(0);=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$super.fireDatasetChanged();=351=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$this.data = data;=351=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$this.data.removeColumn(columnKey);=351=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=wrap:0,1$if(data){=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=insert-before:0$return;=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$fireDatasetChanged(null);=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=wrap:0,1$if((data != null)){=351=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=wrap:0,1$if((this.data != null)){=351=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=insert-before:0$this.data = data;=351=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$this.data = columnKey;=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$data = fireDatasetChanged();=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=insert-before:0$this.data = columnKey;=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$columnKey();=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/category/DefaultCategoryDataset.java=replace:0,1$debug();=351=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return;=335=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=335=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=335=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$continue;=335=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=335=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=delete:0,1=335=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return index;=335=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$removeValue(index);=335=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue(index);=335=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return key;=335=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue(key);=335=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return 0;=335=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$break;=335=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$index = index;=335=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$index++;=335=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$break;=335=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$index = 0;=335=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((index < 0)){=335=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return this;=335=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((index != null)){=335=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$index = key;=335=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((key != null)){=335=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$index = false;=335=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$key = index;=335=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$continue;=335=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$=335=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.setValue(keyIndex, key);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(keyIndex, key);=234=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.set(keyIndex, key);=234=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(keyIndex, keyIndex);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.value.set(keyIndex, key);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(keyIndex, value);=234=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keyIndex.set(keyIndex, key);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(value, key);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((keyIndex >= 0)){=234=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.set(keyIndex, value);=234=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(key);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=delete:0,1=234=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.values.set(keyIndex, value);=234=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.key.set(keyIndex, key);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.add(key);=234=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(keyIndex);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.add(value);=234=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.values.add(value);=234=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys.add(key);=234=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(key, new Integer((this.keys.size() - 1)));=234=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(key, key);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.indexMap.put(key, new Integer((this.keys.size() - 1)));=234=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this..set(keyIndex, key);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(keyIndex, );=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.set(keyIndex, key);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(, key);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.getIndex(keyIndex, key);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$set(keyIndex, key);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(value);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(key, keyIndex);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(key, value);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(key, false);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$break;=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(key, );=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(key, true);=234=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(key, value);=197=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=197=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=197=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(value);=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(key);=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(value, new Double(value));=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$setValue(key, value);=197=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(new Double(value));=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(key, new Double(value), value);=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return addValue(key, new Double(value));=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue();=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(key, new Double(value));=197=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(new Double(key, value));=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((value != null)){=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(new Double(value), key);=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(key, );=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(key, key);=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(new Double(value), value);=197=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$super.addValue();=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(key, new Double(value), false);=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((value == null)){=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$key = addValue(key, new Double(value));=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(key, false);=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(key, true);=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(key, new Double(value), true);=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(new Double(value), key, value);=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(new Double(value), null);=197=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=delete:0,1=197=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(key, new Double(key));=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return;=197=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(addValue(key, value));=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(setValue(key, value));=197=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return i.getIndex();=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return -1;=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return i;=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return 0;=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return i.intValue();=157=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return i.get();=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return key.intValue();=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return i.add();=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return 0;=157=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return i.intValue(this);=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return i.debug();=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return i.lastIndexOf();=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return i.intValue(key);=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return false;=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return key;=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return 1;=157=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return 1;=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((i == null)){ return -1;}=157=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return -1;=157=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return i.getName();=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$break;=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return i.key();=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((i != null)){ return -1;}=157=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return i.intValue(0);=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return i.max();=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$continue;=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((key == null)){ return -1;}=157=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((i != null)){=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return i.intValue().intValue();=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return .intValue();=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((i == null)){ return 0;}=157=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return .intValue();=157=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((i != null)){ return 0;}=157=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key == null)){=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key != null)){=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key >= null)){=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((value == null)){=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key > null)){=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key <= null)){=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (key == null))){=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((key == null)){ return; }=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (this.keys.size() == null))){=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$super.setValue();=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || key.isEmpty())){=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.key = key;=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (this.keys.size() - 1))){=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (key != null))){=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (this.keys.size() != null))){=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue(key);=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.rebuildIndex();=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.clear();=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key < null)){=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (value == null))){=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (keyIndex >= 0))){=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) && (key == null))){=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((values == null)){=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((value == null)){ return; }=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((keys == null)){=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.key = key;=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) && (key != null))){=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.set(keyIndex, value);=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.value = value;=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key == "null")){=229=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (this.keys.set(keyIndex, key) == null))){=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(keyIndex, key);=229=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = getIndex(key);=232=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = getIndex(value);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = setValue(key);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$long keyIndex = getIndex(key);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final int keyIndex = getIndex(key);=232=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = getIndex(keyIndex);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=232=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=232=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = getIndex();=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = set(key);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((key == null)){=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = getIndex(keys);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = getIndex(values);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = getIndex(key, false);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = getIndex(key, true);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = add(key);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = key(key);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.values.set(keyIndex, value);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = put(key);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = getIndex();=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys.set(keyIndex, key);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = getIndex(key, 0);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = getIndex(key, value);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = getIndex(keyIndex, key);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = getIndex(key, null);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = getIndex(key, 1);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = key;=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.values.add(value);=232=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys.add(key);=232=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.indexMap.put(key, new Integer((this.keys.size() - 1)));=232=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = debug(key);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$int keyIndex = e(key);=232=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((keyIndex >= 0)){=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((keyIndex > 0)){=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((keyIndex <= 0)){=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((keyIndex == 0)){=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((keyIndex < 0)){=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((keyIndex != 0)){=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((value >= 0)){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((keyIndex && 0)){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((keyIndex || 0)){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(( >= 0)){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((keyIndex != 0)){=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key >= 0)){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((keys >= 0)){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(( >= 0)){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((keyIndex instanceof 0)){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((values >= 0)){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((keyIndex >= 0) && (this.keys.size() - 1))){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((keyIndex != null)){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((keyIndex & 0)){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.values.set(keyIndex, value);=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((key != 0)){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((keyIndex >= 2)){=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.values.add(value);=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys.add(key);=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((keyIndex >= 0) && (keyIndex == 0))){=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.indexMap.put(key, new Integer((this.keys.size() - 1)));=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys.set(keyIndex, key);=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((keyIndex >= 0) || (keyIndex > 0))){=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((keyIndex >= 0) && (keyIndex != 0))){=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((keyIndex >= 0) && (keyIndex > 0))){=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((keyIndex >= 0) && (value == 0))){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((keyIndex >= 0) && (value != 0))){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((keyIndex >= 0) || (keyIndex == 0))){=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((keyIndex >= 0) && (keyIndex > value))){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((keyIndex >= 0) || (keyIndex > value))){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((keyIndex >= 0) && (this.keys != 0))){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((keyIndex >= 0) && (keyIndex > keyIndex))){=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((keyIndex >= 0) || (keyIndex > keyIndex))){=233=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((keyIndex >= 0) && (this.keys == 0))){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((keyIndex >= 0) && (keyIndex == null))){=233=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=238=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.add(keyIndex);=238=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.value.add(key);=238=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys.set(keyIndex, key);=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.add(key);=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.add(key);=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keyIndex.add(key);=238=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.indexMap.put(key, new Integer((this.keys.size() - 1)));=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.setValue(key);=238=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.values.add(value);=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.add(value);=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.values.set(keyIndex, value);=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(keyIndex, key);=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$break;=238=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.key.add(key);=238=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(key, new Integer((this.keys.size() - 1)));=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=delete:0,1=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this..add(key);=238=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.set(keyIndex, value);=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((keyIndex >= 0)){=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((key == null)){=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.add();=238=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.add(value);=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.add(keyIndex, value);=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys.add(key);=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.keys != 0)){=238=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$continue;=238=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.getIndex(key);=238=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$=238=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=239=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=delete:0,1=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.values.set(keyIndex, value);=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.add(value);=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys.set(keyIndex, key);=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys.add(key);=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.indexMap.put(key, new Integer((this.keys.size() - 1)));=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.add(keyIndex);=239=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.set(keyIndex, value);=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.value.add(value);=239=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.setValue(value);=239=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(keyIndex, key);=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keyIndex.add(value);=239=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(key, new Integer((this.keys.size() - 1)));=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.add(key);=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.add(value);=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((key == null)){=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((keyIndex >= 0)){=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$add(value);=239=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$break;=239=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.add(key);=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.add(value);=239=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.size();=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.put(key, new Integer((this.keys.size() - 1)));=239=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.key.add(value);=239=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.add(keys);=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$continue;=239=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.add();=239=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$=239=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.values != 0)){=239=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.add(false);=239=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return;=239=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.add(value, false);=239=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(key, new Integer((this.keys.size() - 1)));=240=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(key, new Integer((this.keys.size() - 0)));=240=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.key.put(key, new Integer((this.keys.size() - 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.put(new Integer((this.keys.size() - 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(value, new Integer((this.keys.size() - 1)));=240=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.put(key, new Integer((this.keys.size() - 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(key, new Integer((this.values.size() - 1)));=240=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(keyIndex, new Integer((this.keys.size() - 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.setValue(key, new Integer((this.keys.size() - 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(key, new Integer((this.value.size() - 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.value.put(key, new Integer((this.keys.size() - 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(key, new Integer((this.keys.size() >= 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(key, new Integer((this.keys.size() <= 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.put(key);=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.values.set(keyIndex, value);=240=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(key, new Integer((this.keyIndex.size() - 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys.set(keyIndex, key);=240=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=delete:0,1=240=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(key, new Integer((this.key.size() - 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys.add(key);=240=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(new Integer((this.keys.size() - 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.values.add(value);=240=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.set(keyIndex, value);=240=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(key, new Integer((this.keys.size() - 2)));=240=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keyIndex.put(key, new Integer((this.keys.size() - 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.add(key);=240=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(key, new Integer((this.keys.size() == 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.set(keyIndex, key);=240=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(, new Integer((this.keys.size() - 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=240=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=240=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(key, new Integer((this.keys.size() != 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(key, new Integer((this.keys.size() + 1)));=240=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.put(key, new Integer((this..size() - 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.put(new Integer((this.keys.size() - 1)), key);=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$break;=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.put(new Integer(key));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.put(key, new Integer(this.keys.size()));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.put(new Integer(key, (this.keys.size() - 1)));=240=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key == null)){=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key != null)){=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (key == null))){=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key > null)){=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key >= null)){=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (key != null))){=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || key.isEmpty())){=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (this.indexMap.get(key) == null))){=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) && (key == null))){=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key <= null)){=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (i == null))){=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (this.indexMap.get(key) != null))){=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) && (key != null))){=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) && key.isEmpty())){=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(key.isEmpty()){=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key < null)){=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=150=Pass
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key == null)){=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) && (this.indexMap.get(key) == null))){=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || !key.isEmpty())){=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((key == null)){ return -1;}=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) && (this.indexMap.get(key) != null))){=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(key){=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key != null)){=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) && (i == null))){=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (key == 0))){=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) && !key.isEmpty())){=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue(key);=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (Integer)this.indexMap.get(key))){=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (key == key))){=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (this.indexMap.get(key) == key))){=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(!key.isEmpty()){=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (this.key == null))){=150=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((key == null) || (this.indexMap == null))){=150=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)this.indexMap.get(key);=153=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)this.key.get(key);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = get(key);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = this.indexMap.get(key);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)this.indexMap.get(i);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)this.indexMap.getIndex(key);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)this.i.get(key);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return -1;=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$Integer i = (Integer)this.indexMap.get(key);=153=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)this..get(key);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)this.indexMap.indexMap.get(key);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = indexMap;=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)this.indexMap.intValue(key);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)this.indexMap.get();=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = this.indexMap.removeValue(key);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return 0;=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = null;=153=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)this.indexMap.get(indexMap);=153=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=153=Pass
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=153=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = this.get(key);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = key;=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = this.indexMap;=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)get(key);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)this.indexMap;=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)this.indexMap.get();=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)this.indexMap.removeValue(key);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return i.intValue();=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = removeValue(key);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.indexMap.get(key) instanceof Integer)){=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)this.indexMap.get(key.indexMap);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return key;=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((key == null)){=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)this.indexMap.key(key);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.indexMap.get(key) != null)){=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$final Integer i = (Integer)this..get(key);=153=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((i == null)){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((i != null)){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((i >= null)){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) || (i != null))){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((i > null)){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((i <= null)){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) && (i != null))){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(i.isEmpty()){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) || i.isEmpty())){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) || (key == null))){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((i != null)){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) || (key != null))){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((i == null)){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(i){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) || (i == null))){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) || !i.isEmpty())){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) || (i == key))){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((i < null)){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) && (key == null))){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) && i.isEmpty())){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) && (key != null))){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(!i.isEmpty()){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) || key)){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) || (i == i))){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) && (i == null))){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) && !i.isEmpty())){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) || (i.intValue() == null))){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((key == null)){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) || (i == 0))){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) && (i == key))){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) || (i.length() == null))){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) || (i != key))){=154=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(!i){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(( == null)){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=delete:0,1=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if(((i == null) || (i.size() == null))){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((i == 0)){=154=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$addValue(key, value);=209=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$setValue(key, value);=209=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=209=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=209=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$setValue(key);=209=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((value != null)){=209=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$super.addValue();=209=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$setValue(value, value);=209=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$setValue(key, value, false);=209=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$setValue();=209=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$setValue(key, key);=209=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$setValue(key, value, true);=209=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$setValue(key, );=209=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$super.addValue(key, value);=209=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((value == null)){=209=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$setValue(key, value, );=209=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$setValue(key, false);=209=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((key != null)){=209=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=209=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((value == null)){ return; }=209=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$setValue(key, value, null);=209=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$setValue(key, value, value);=209=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$setValue(key, true);=209=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue(key);=209=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$return setValue(key, value);=209=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$super.DefaultKeyedValues();=99=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys = new ArrayList(this.keys);=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys = new ArrayList();=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values = new ArrayList();=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys = new ArrayList(this);=99=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.keys != null)){=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((keys != null)){=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.keys == null)){=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$super.DefaultKeyedValues();=99=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=99=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.rebuildIndex();=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.clear();=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((this.keys == null)){ return; }=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((keys == null)){=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys = keys;=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys = new ArrayList("null");=99=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys = new ArrayList(this.values);=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$if((keys == null)){ return; }=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys = new ArrayList(0);=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys = new ArrayList(keys);=99=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if(keys){=99=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys = new HashMap();=99=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys.keys = new ArrayList();=99=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values.keys = new ArrayList();=99=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values = new ArrayList(this.values);=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys = new ArrayList();=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values = new ArrayList();=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values = new ArrayList(this);=100=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values = new ArrayList(this.keys);=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$super.DefaultKeyedValues();=100=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.rebuildIndex();=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.clear();=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.values != null)){=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values = new ArrayList(this.indexMap);=100=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.values == null)){=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values = values;=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=100=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((values != null)){=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$super.DefaultKeyedValues();=100=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values = new ArrayList("null");=100=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((values == null)){=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values = new HashMap();=100=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values = new ArrayList(0);=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values = null;=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.keys = new ArrayList();=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=delete:0,1=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$=100=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap = new HashMap();=101=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap = new HashMap(this.indexMap);=101=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap = new HashMap(this);=101=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap = new HashMap(this.values);=101=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=101=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=101=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap = new ArrayList();=101=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap.indexMap = new HashMap();=101=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.rebuildIndex();=101=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$this.clear();=101=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$super.DefaultKeyedValues();=101=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap = new HashMap(indexMap);=101=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap = indexMap;=101=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.indexMap != null)){=101=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$super.DefaultKeyedValues();=101=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap = new HashMap(this.keys);=101=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap = new HashMap("null");=101=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap = new HashMap(0);=101=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap = new HashMap(values);=101=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.indexMap = null;=101=Fail
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.values = new HashMap();=101=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this. = new HashMap();=101=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.keys = new HashMap();=101=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$removeValue(indexMap);=101=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$return;=101=Build Error
+/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$this.DefaultKeyedValues = new HashMap();=101=Build Error
