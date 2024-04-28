@@ -35,11 +35,17 @@ git clone https://github.com/BaiGeiQiShi/RecoderAPI.git
 ```
 
 #### 2.4 Setup
-Install the additonal dependencies.
+① Install the additonal dependencies.
 ```shell
 cd ./RecoderAPI
 ./setup.sh
 ```
+② [Download](https://drive.google.com/file/d/1XWyx-uPOnV0tEIMaWTkAd3yaaxYD-sbh/view?usp=drive_link) the pre-trained model and unzip this model.
+```
+unzip ./checkpointSearch.zip
+```
+
+
 
 ## 3. Quick Test
 ```
