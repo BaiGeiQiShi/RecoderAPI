@@ -1,0 +1,49 @@
+Chart18b2.txt:167:/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=317=Pass
+Chart18b2.txt:192:/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=replace:0,1$if((index <= this.keys.size())){=318=Pass
+Chart18b2.txt:198:/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=318=Pass
+Chart18b2.txt:199:/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=318=Pass
+Chart18b2.txt:217:/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=wrap:0,1$if((this.keys != null)){=318=Pass
+Chart18b2.txt:228:/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$clear();=333=Pass
+Chart18b2.txt:733:/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=150=Pass
+Chart18b2.txt:770:/Recd/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java=insert-before:0$rebuildIndex();=153=Pass
+Chart22b4.txt:306:/Recd/105_bugs_with_src/Chart22b4/source/org/jfree/data/KeyedObjects2D.java=replace:0,1$if(((row >= 0) && (row == column))){=231=Pass
+Chart25b3.txt:332:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=insert-before:0$if((data != null)){ return null;}=107=Pass
+Chart25b3.txt:355:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,2$MeanAndStandardDeviation masd = null;=108=Pass
+Chart25b3.txt:369:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$if((masd == null)){=110=Pass
+Chart25b3.txt:372:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$if(((masd != null) && (masd == null))){=110=Pass
+Chart25b3.txt:376:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$if((result != null)){=110=Pass
+Chart25b3.txt:381:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$if(((masd != null) && (data == null))){=110=Pass
+Chart25b3.txt:387:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$if(((masd != null) && (masd.getMean() == null))){=110=Pass
+Chart25b3.txt:392:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$if(((masd != null) && (result != null))){=110=Pass
+Chart25b3.txt:396:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=wrap:0,1$if((masd == null)){=110=Pass
+Chart25b3.txt:399:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$if(((masd != null) && (masd != masd))){=110=Pass
+Chart25b3.txt:404:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$masd.getMean();=111=Pass
+Chart25b3.txt:408:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$return result;=111=Pass
+Chart25b3.txt:409:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$result = result;=111=Pass
+Chart25b3.txt:426:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=wrap:0,1$if((masd == null)){=111=Pass
+Chart25b3.txt:442:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=insert-before:0$result = null;=113=Pass
+Chart25b3.txt:447:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$return null;=113=Pass
+Chart25b3.txt:460:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=insert-before:0$if((result != null)){ result = null; }=113=Pass
+Chart25b3.txt:532:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,2$MeanAndStandardDeviation masd = (MeanAndStandardDeviation)this.data.getObject(row, row);=170=Pass
+Chart25b3.txt:584:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$result = masd.getMean();=173=Pass
+Chart25b3.txt:718:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$return 0;=264=Pass
+Chart25b3.txt:726:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$return (this.data.getRowCount() - this.data.getRowCount());=264=Pass
+Chart25b3.txt:746:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$return this.data.getRowCount();=273=Pass
+Chart25b3.txt:751:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$return 0;=273=Pass
+Chart25b3.txt:759:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$return (this.data.getColumnCount() - this.data.getColumnCount());=273=Pass
+Chart25b3.txt:763:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,1$return 1;=273=Pass
+Chart25b3.txt:827:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=insert-before:0$if((standardDeviation == null)){ return; }=299=Pass
+Chart25b3.txt:832:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=replace:0,2$MeanAndStandardDeviation item = new MeanAndStandardDeviation(mean, mean);=299=Pass
+Chart25b3.txt:874:/Recd/105_bugs_with_src/Chart25b3/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java=delete:0,1=301=Pass
+Time12b1.txt:679:/Recd/105_bugs_with_src/Time12b1/src/main/java/org/joda/time/LocalDateTime.java=replace:0,1$return true;=669=Pass
+Time12b1.txt:681:/Recd/105_bugs_with_src/Time12b1/src/main/java/org/joda/time/LocalDateTime.java=replace:0,1$return (other.iLocalMillis == other.iLocalMillis);=669=Pass
+Time12b1.txt:683:/Recd/105_bugs_with_src/Time12b1/src/main/java/org/joda/time/LocalDateTime.java=replace:0,1$return (iLocalMillis <= other.iLocalMillis);=669=Pass
+Time12b1.txt:690:/Recd/105_bugs_with_src/Time12b1/src/main/java/org/joda/time/LocalDateTime.java=replace:0,1$return (partial instanceof LocalDateTime);=669=Pass
+Time12b1.txt:693:/Recd/105_bugs_with_src/Time12b1/src/main/java/org/joda/time/LocalDateTime.java=replace:0,1$return (iLocalMillis == iLocalMillis);=669=Pass
+Time12b1.txt:708:/Recd/105_bugs_with_src/Time12b1/src/main/java/org/joda/time/LocalDateTime.java=replace:0,1$return ((iLocalMillis == other.iLocalMillis) || (other.iLocalMillis == other.iLocalMillis));=669=Pass
+Time12b3.txt:632:/Recd/105_bugs_with_src/Time12b3/src/main/java/org/joda/time/LocalDateTime.java=replace:0,1$return true;=669=Pass
+Time12b3.txt:634:/Recd/105_bugs_with_src/Time12b3/src/main/java/org/joda/time/LocalDateTime.java=replace:0,1$return (other.iLocalMillis == other.iLocalMillis);=669=Pass
+Time12b3.txt:636:/Recd/105_bugs_with_src/Time12b3/src/main/java/org/joda/time/LocalDateTime.java=replace:0,1$return (iLocalMillis <= other.iLocalMillis);=669=Pass
+Time12b3.txt:643:/Recd/105_bugs_with_src/Time12b3/src/main/java/org/joda/time/LocalDateTime.java=replace:0,1$return (partial instanceof LocalDateTime);=669=Pass
+Time12b3.txt:646:/Recd/105_bugs_with_src/Time12b3/src/main/java/org/joda/time/LocalDateTime.java=replace:0,1$return (iLocalMillis == iLocalMillis);=669=Pass
+Time12b3.txt:661:/Recd/105_bugs_with_src/Time12b3/src/main/java/org/joda/time/LocalDateTime.java=replace:0,1$return ((iLocalMillis == other.iLocalMillis) || (other.iLocalMillis == other.iLocalMillis));=669=Pass
