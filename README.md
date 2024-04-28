@@ -29,6 +29,7 @@ To prepare the environment, you need to install some additional dependencies
 
 ```
 pip install -r requirements.txt
+cp -r ~/Repair/checkpointSearch ./
 git clone https://github.com/universetraveller/CatenaD4J.git
 export PATH=\$PATH:/CatenaD4J" >> ~/.bashrc && export PATH=$PATH:/CatenaD4J
 git clone https://github.com/BaiGeiQiShi/RecoderAPI.git
