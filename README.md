@@ -68,9 +68,9 @@ Recoder records the time of generating patches in `time-info-gen.txt`. Then we u
 ```
 
 The results are located in `./final/Chart18b2.txt`. At the end of each line, there are **Fail**, **Pass**, and **Build Error**.
-- **Fail**: After applying this patch, the compilation was successful, but the bug was not fixed.
+- **Fail**: After applying this patch, the compilation is successful, but the bug is not fixed.
 - **Pass**: This patch is plausible.
-- **Build Error**: After applying this patch, the compilation was failed.
+- **Build Error**: After applying this patch, the compilation is failed.
 
 
 ## 4. Usage
