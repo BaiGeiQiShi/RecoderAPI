@@ -65,7 +65,7 @@ Recoder records the time of generating patches in `time-info-gen.txt`. Then we u
 
 
 ## 4. Usage
-You should first checkout the bug in Catena4j
+You should first checkout the 105 bugs in Catena4j and then repair these 105 bugs
 ```
 # Checkout 105 bugs
 ./checkout_105.sh
