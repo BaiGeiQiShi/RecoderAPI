@@ -57,7 +57,7 @@ cp -r 105_bugs_with_src_backup/* 105_bugs_with_src
 ./recd_generate.sh
 ```
 
-The generated patches are located in `./patches/$BUG_ID.txt`. Each line of code represents a patch. Each line is divided by `,` into 3 parts. The first part is **buggy file path**. The second part is **buggy line in the buggy file**. The third part is **patch** ([here](rules.md) is the rule for reading patches).
+The generated patches are located in `./patches/Chart18b2.txt`. Each line of code represents a patch. Each line is divided by `,` into 3 parts. The first part is **buggy file path**. The second part is **buggy line in the buggy file**. The third part is **patch** ([here](rules.md) is the rule for reading patches).
 <br>
 <br>
 
@@ -67,6 +67,10 @@ Recoder records the time of generating patches in `time-info-gen.txt`. Then we u
 ./recd_validate.sh
 ```
 
+The results is located in `./final/Chart18b2.txt`. At the end of each line, there are **Fail**, **Pass**, and **Build Error**.
+- **Fail**: After applying this patch, the compilation was successful, but the bug was not fixed.
+- **Pass**: This patch is plausible.
+- **Build Error**: After applying this patch, the compilation was failed.
 
 
 ## 4. Usage
