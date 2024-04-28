@@ -49,8 +49,7 @@ unzip ./checkpointSearch.zip
 
 ## 3. Quick Test
 ```
-# Generating the patches
-
+# Generate the patches
 cd 105_bugs_with_src_backup
 catena4j checkout -p Chart -v 18b2 -w ./Chart18b2
 cd ..
