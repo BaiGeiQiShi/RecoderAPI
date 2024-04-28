@@ -6,6 +6,8 @@ source ~/.bashrc
 
 cp -r ~/Repair/checkpointSearch ./
 
+cd /
+
 git clone https://github.com/rjust/defects4j.git
 echo "export PATH=\$PATH:/defects4j" >> ~/.bashrc && export PATH=$PATH:/defects4j
 
