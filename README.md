@@ -67,7 +67,7 @@ Recoder records the time of generating patches in `time-info-gen.txt`. Then we u
 ./recd_validate.sh
 ```
 
-The results is located in `./final/Chart18b2.txt`. At the end of each line, there are **Fail**, **Pass**, and **Build Error**.
+The results are located in `./final/Chart18b2.txt`. At the end of each line, there are **Fail**, **Pass**, and **Build Error**.
 - **Fail**: After applying this patch, the compilation was successful, but the bug was not fixed.
 - **Pass**: This patch is plausible.
 - **Build Error**: After applying this patch, the compilation was failed.
