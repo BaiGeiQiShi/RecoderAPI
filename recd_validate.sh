@@ -32,7 +32,7 @@ do
         	if [[ $line =~ "$cbug" ]];then
                 	usedTIME=${line#*:}
         	fi
-	done<time-info-gen-bu.txt
+	done<time-info-gen.txt
 
 	TIME=$(echo "18000-$usedTIME" | bc)
 
