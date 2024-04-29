@@ -24,7 +24,7 @@ do
      fi
 
     cd ${PROJECT_DIR}
-    cp ${SCRIPT_DIR}/105BugsFL/${file}/* ./
+    cp ${SCRIPT_DIR}/105BugsFL/${PID}_${BID_NUM}_${CID_NUM}/* ./
     defects4j compile
 
 << 'COMMENT'
