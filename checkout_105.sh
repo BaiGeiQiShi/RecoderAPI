@@ -24,6 +24,7 @@ do
      fi
 
     cd ${PROJECT_DIR}
+    cp ${SCRIPT_DIR}/105BugsFL/${file}/* ./
     defects4j compile
 
 << 'COMMENT'
