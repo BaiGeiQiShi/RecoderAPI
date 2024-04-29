@@ -39,6 +39,7 @@ git clone https://github.com/BaiGeiQiShi/RecoderAPI.git
 ```shell
 cd ./RecoderAPI
 ./setup.sh
+source ~/.bashrc
 ```
 ② [Download](https://drive.google.com/file/d/1XWyx-uPOnV0tEIMaWTkAd3yaaxYD-sbh/view?usp=drive_link) the pre-trained model in the `RecoderAPI` directory and unzip this model.
 ```
