@@ -53,6 +53,7 @@ unzip ./checkpointSearch.zip
 cd 105_bugs_with_src_backup
 catena4j checkout -p Chart -v 18b2 -w ./Chart18b2
 cd ..
+cp 105BugsFL/Chart_18_2/* 105_bugs_with_src_backup/Chart18b2/
 cp -r 105_bugs_with_src_backup/* 105_bugs_with_src
 ./recd_generate.sh
 ```
