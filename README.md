@@ -1,32 +1,40 @@
 # Recoder
 
+We reformat the patches of Recoder according to this [rule](rules.md) for the convenience of result statistics.
+
 ## 1. Environment
 
 - Ubuntu 20.04
-- docker
-- nvidia-docker
-- GPUs should support CUDA and the version should be advanced than 11.0
-- Python >=3.7
 - JDK 1.8
+- Python 3.8
+- CUDA 11.3.1
+- cudnn 8.2.1
+- torch 1.13.1
 - [Defects4J 2.0](https://github.com/rjust/defects4j)
 - [CatenaD4J](https://github.com/universetraveller/CatenaD4J.git)
 
 
-## 2. Installation
+## 2. Experiment Setup
+- Timeout: 5h
 
-#### 2.1 Create the docker image
+
+## 3. Excluded Bug
+> None.
+
+
+## 4. Installation
+#### 4.1 Create the docker image
 Use the `Dockerfile` in `./Docker` to create the docker image.
 ```shell
 docker build -t recoder-env .
 ```
 
-
-#### 2.2 Create the docker container
+#### 4.2 Create the docker container
 ```
 docker run -it --gpus all --name=recoder --shm-size="1g" recoder-env /bin/bash
  ```
 
-#### 2.3 Clone the Recoder repository
+#### 4.3 Clone the Recoder repository
 At the root of this container, we clone the Recoder repository.
 
 ```shell
@@ -34,7 +42,7 @@ cd /
 git clone https://github.com/BaiGeiQiShi/RecoderAPI.git
 ```
 
-#### 2.4 Setup
+#### 4.4 Setup
 ① Install the additonal dependencies.
 ```shell
 cd ./RecoderAPI
@@ -47,8 +55,7 @@ unzip ./checkpointSearch.zip
 ```
 
 
-
-## 3. Quick Test
+## 5. Quick Test
 ```
 # Generate the patches
 cd 105_bugs_with_src_backup
@@ -75,7 +82,7 @@ The results are located in `./final/Chart18b2.txt`. At the end of each line, the
 - **Build Error**: After applying this patch, the compilation is failed.
 
 
-## 4. Usage
+## 6. Experiment Reproduction
 You should first checkout the 105 bugs in Catena4j and then repair these 105 bugs
 ```
 # Checkout 105 bugs
