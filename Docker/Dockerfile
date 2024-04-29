@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
     apt-get install -y software-properties-common && \
     add-apt-repository ppa:deadsnakes/ppa && \
-    apt-get install -y openjdk-8-jdk git wget unzip curl pip libdbi-perl subversion vim && \
+    apt-get install -y openjdk-8-jdk git wget unzip curl pip bc libdbi-perl subversion vim && \
     echo "export _JAVA_OPTIONS=-Xverify:none" >> ~/.bashrc && \
     export export _JAVA_OPTIONS=-Xverify:none
 
