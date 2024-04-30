@@ -60,6 +60,7 @@ unzip ./checkpointSearch.zip
 
 
 ## 6. Quick Test
+**Note!**: In quick test, the `ochiai.ranking.txt` in Chart18b2 only contains one location！
 
 ① Generate the patches
 ```
@@ -104,6 +105,10 @@ For example, one line of patch is shown below:
 ## 7. Experiment Reproduction
 If you want to fully replicate our experiments on Recoder, please first checkout the 105 bugs in Catena4j and then repair these 105 bugs
 ```
+# Clean the quick test files
+rm -rf 105_bugs_with_src/*
+rm -rf 105_bugs_with_src_backup/*
+
 # Checkout 105 bugs
 ./checkout_105.sh
 
