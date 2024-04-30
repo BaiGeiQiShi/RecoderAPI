@@ -28,6 +28,4 @@ pip3 install torch torchvision torchaudio --extra-index-url https://download.pyt
 echo "@: Installing requirements"
 pip3 install -r requirements.txt
 
-mkdir 105_bugs_with_src
-mkdir 105_bugs_with_src_backup
 echo "END OF SCRIPT"
