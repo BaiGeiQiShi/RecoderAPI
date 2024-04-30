@@ -75,12 +75,12 @@ The generated patches are located in `./patches/Chart18b2.txt`. Each line of cod
 - The third part is **patch** ([here](rules.md) is the rule for reading patches).
 
 For example, one line of patch is shown below:
-```shell
-/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.rowKeys.iterator(); 
 ```
-- `/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java` is **buggy file path**.
-- `455` is **buggy line in the buggy file**.
-- `replace:0,1$Iterator iterator = this.rowKeys.iterator();` is **patch**.
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java,318,insert-before:0$rebuildIndex();
+```
+- `/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java` is **buggy file path**.
+- `318` is **buggy line in the buggy file**.
+- `insert-before:0$rebuildIndex();` is **patch**.
 
 <br>
 
@@ -95,13 +95,13 @@ The results are located in `./final/Chart18b2.txt`. At the end of each line, the
 - **Build Error**: After applying this patch, the compilation is failed.
 
 For example, one line of patch is shown below:
-```shell
-/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java:replace:0,1$Iterator iterator = this.rowKeys.iterator();:455:Fail
 ```
-- `/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java` is **buggy file path**.
-- `replace:0,1$Iterator iterator = this.rowKeys.iterator();` is **patch**.
-- `455` is **buggy line in the buggy file**.
-- `Fail` means **the compilation is successful, but the bug is not fixed**.
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java:insert-before:0$rebuildIndex();:318:Pass
+```
+- `/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java` is **buggy file path**.
+- `insert-before:0$rebuildIndex();` is **patch**.
+- `318` is **buggy line in the buggy file**.
+- `Pass` means **the compilation is successful, but the bug is not fixed**.
 
 ## 7. Experiment Reproduction
 It may take about **20 days** to finish the entire experiment. If you want to fully replicate our experiments on Recoder, please first checkout the 105 bugs in Catena4j and then repair these 105 bugs. You can also modify `105_bugs.txt` to determine the bugs to be fixed.
