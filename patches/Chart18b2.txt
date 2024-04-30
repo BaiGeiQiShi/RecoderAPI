@@ -1,0 +1,37 @@
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.rowKeys.iterator();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.columnKeys.iterator();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.rows.iterator();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,insert-before:0$clear();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.columnKey.iterator();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$final Iterator iterator = this.rows.iterator();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,insert-before:0$return;
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$this.rows.iterator();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,wrap:0,1$if((this.rows.iterator() != null)){
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = ;
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.iterator();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = iterator();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = null;
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,insert-before:0$if((this.rows.iterator() == null)){ return; }
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,insert-before:0$super.removeColumn();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,insert-before:0$if((this.rows == null)){ return; }
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,insert-before:0$if((columnKey == null)){ return; }
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = rows;
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.rowKeys.rows.iterator();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.columnKeys.rows.iterator();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.rows.rows.iterator();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.getRowKeys().rows.iterator();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.getColumnKeys().rows.iterator();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.rows;
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,insert-before:0$if((rows == null)){ return; }
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,wrap:0,1$if((columnKey != null)){
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$iterator();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,insert-before:0$if((this.rows != null)){ return; }
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,wrap:0,1$if((this.rows != null)){
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,wrap:0,1$if((this.rows.iterator() == null)){
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,insert-before:0$this.columnKey = columnKey;
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.rows.removeColumn();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,wrap:0,1$if((rows != null)){
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.rows.iterator().iterator();
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.rows.removeRow(columnKey);
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.rows.removeColumn(columnKey);
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.rows.hasNext();
