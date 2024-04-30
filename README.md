@@ -2,6 +2,8 @@
 This repository is used to replicate the experiments of article **"Towards Effective Multi-Hunk Bug Repair: Detecting, Creating, Evaluating, and Understanding Indivisible Bugs"** on Recoder. If you want to learn more about Recoder, please follow the original repository of [Recoder](https://github.com/pkuzqh/Recoder.git).
 
 ## 1. Modification
+We have made two modifications:
+
 ① Due to the high experimental cost in our paper, to maximize GPU load, we have separated the patch generation and patch validation of Recoder. Since Recoder does not have patch ranking, this separation will not negatively impact the experimental results of Recoder.
 
 ② We reformat the patches of Recoder according to this [rule](rules.md) for the convenience of result statistics.
