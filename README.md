@@ -101,7 +101,7 @@ For example, one line of patch is shown below:
 - `/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues.java` is **buggy file path**.
 - `insert-before:0$rebuildIndex();` is **patch**.
 - `318` is **buggy line in the buggy file**.
-- `Pass` means **the compilation is successful, but the bug is not fixed**.
+- `Pass` means **This patch is plausible**.
 
 ## 7. Experiment Reproduction
 It may take about **20 days** to finish the entire experiment. If you want to fully replicate our experiments on Recoder, please first checkout the 105 bugs in Catena4j and then repair these 105 bugs. You can also modify `105_bugs.txt` to determine the bugs to be fixed.
