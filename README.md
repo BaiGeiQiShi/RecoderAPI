@@ -60,7 +60,7 @@ unzip ./checkpointSearch.zip
 
 
 ## 6. Quick Test
-**Note!**: In quick test, the `ochiai.ranking.txt` in Chart18b2 only contains one location！
+**Note**: In quick test, the `ochiai.ranking.txt` in Chart18b2 only contains one location！
 
 ① Generate the patches
 ```
