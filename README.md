@@ -120,4 +120,21 @@ rm -rf 105_bugs_with_src_backup/*
 ./recd_validate.sh
 ```
 
+## 8. Key Files
+```
+   |——./105_bugs_with_src             //buggy project directory
+   |——./105_bugs_with_src_backup      //buggy project directory backup
+   |——./105BugsFL                     //FL results
+   |——105_bugs.txt                    //bug_id list(only fix bugs within this file)
+   |——time-info-gen.txt               //the time it takes to generate patches
+   |——time-info.txt                   //the time it takes to generate and validate patches
+   |——checkout_105.sh                 //download buggy project in 105_bugs.txt
+   |——setup.sh                        //prepare environment
+   |——requirements.sh                 //record necessary requirements
+   |——recd_generate.sh                //start generate patches
+   |——recd_validate.sh                //start validate patches
+   |——./final                         //patch validation results
+   |——./patches                       //patch generation results
+```
+
 If you have any questions, you can go to the [Recoder](https://github.com/pkuzqh/Recoder.git) repository or create issues for more information.
