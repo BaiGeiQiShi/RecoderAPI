@@ -1,8 +1,12 @@
 # Recoder
+This repository is used to replicate the experiments of article **"Towards Effective Multi-Hunk Bug Repair: Detecting, Creating, Evaluating, and Understanding Indivisible Bugs"** on Recoder. If you want to learn more about Recoder, please follow the original repository of [Recoder](https://github.com/pkuzqh/Recoder.git).
 
-We reformat the patches of Recoder according to this [rule](rules.md) for the convenience of result statistics.
+## 1. Modification
+① Due to the high experimental cost in our paper, to maximize GPU load, we have separated the patch generation and patch validation of Recoder. Since Recoder does not have patch ranking, this separation will not negatively impact the experimental results of Recoder.
 
-## 1. Environment
+② We reformat the patches of Recoder according to this [rule](rules.md) for the convenience of result statistics.
+
+## 2. Environment
 
 - Ubuntu 20.04
 - JDK 1.8
@@ -14,27 +18,27 @@ We reformat the patches of Recoder according to this [rule](rules.md) for the co
 - [CatenaD4J](https://github.com/universetraveller/CatenaD4J.git)
 
 
-## 2. Experiment Setup
+## 3. Experiment Setup
 - Timeout: 5h
 
 
-## 3. Excluded Bug
+## 4. Excluded Bug
 > None.
 
 
-## 4. Installation
-#### 4.1 Create the docker image
+## 5. Installation
+#### 5.1 Create the docker image
 Use the `Dockerfile` in `./Docker` to create the docker image.
 ```shell
 docker build -t recoder-env .
 ```
 
-#### 4.2 Create the docker container
-```
+#### 5.2 Create the docker container
+```shell
 docker run -it --gpus all --name=recoder --shm-size="1g" recoder-env /bin/bash
  ```
 
-#### 4.3 Clone the Recoder repository
+#### 5.3 Clone the Recoder repository
 At the root of this container, we clone the Recoder repository.
 
 ```shell
@@ -42,7 +46,7 @@ cd /
 git clone https://github.com/BaiGeiQiShi/RecoderAPI.git
 ```
 
-#### 4.4 Setup
+#### 5.4 Setup
 ① Install the additonal dependencies.
 ```shell
 cd ./RecoderAPI
@@ -50,29 +54,35 @@ cd ./RecoderAPI
 source ~/.bashrc
 ```
 ② [Download](https://drive.google.com/file/d/1XWyx-uPOnV0tEIMaWTkAd3yaaxYD-sbh/view?usp=drive_link) the pre-trained model in the `RecoderAPI` directory and unzip this model.
-```
+```shell
 unzip ./checkpointSearch.zip
 ```
 
 
-## 5. Quick Test
+## 6. Quick Test
+
+① Generate the patches
 ```
-# Generate the patches
-cd 105_bugs_with_src_backup
-catena4j checkout -p Chart -v 18b2 -w ./Chart18b2
-cd ..
-cp 105BugsFL/Chart_18_2/* 105_bugs_with_src_backup/Chart18b2/
-cp -r 105_bugs_with_src_backup/* 105_bugs_with_src
 ./recd_generate.sh
 ```
 
-The generated patches are located in `./patches/Chart18b2.txt`. Each line of code represents a patch. Each line is divided by `,` into 3 parts. The first part is **buggy file path**. The second part is **buggy line in the buggy file**. The third part is **patch** ([here](rules.md) is the rule for reading patches).
-<br>
+The generated patches are located in `./patches/Chart18b2.txt`. Each line of code represents a patch. Each line is divided by `,` into 3 parts. 
+- The first part is **buggy file path**.
+- The second part is **buggy line in the buggy file**.
+- The third part is **patch** ([here](rules.md) is the rule for reading patches).
+
+For example, one line of patch is shown below:
+```shell
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java,455,replace:0,1$Iterator iterator = this.rowKeys.iterator(); 
+```
+- `/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java` is **buggy file path**.
+- `455` is **buggy line in the buggy file**.
+- `replace:0,1$Iterator iterator = this.rowKeys.iterator();` is **patch**.
+
 <br>
 
-Recoder records the time of generating patches in `time-info-gen.txt`. Then we use `recd_validate.sh` to validate patches in the remaining time budget (5 hours - $TIME_TO_GENERATE_PATCHES).
+② Recoder records the time of generating patches in `time-info-gen.txt`. Then we use `recd_validate.sh` to validate patches in the remaining time budget (5 hours - $TIME_TO_GENERATE_PATCHES).
 ```
-# Validate the patches
 ./recd_validate.sh
 ```
 
@@ -81,9 +91,18 @@ The results are located in `./final/Chart18b2.txt`. At the end of each line, the
 - **Pass**: This patch is plausible.
 - **Build Error**: After applying this patch, the compilation is failed.
 
+For example, one line of patch is shown below:
+```shell
+/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java:replace:0,1$Iterator iterator = this.rowKeys.iterator();:455:Fail
+```
+- `/RecoderAPI/105_bugs_with_src/Chart18b2/source/org/jfree/data/DefaultKeyedValues2D.java` is **buggy file path**.
+- `replace:0,1$Iterator iterator = this.rowKeys.iterator();` is **patch**.
+- `455` is **buggy line in the buggy file**.
+- `Fail` means **the compilation is successful, but the bug is not fixed**.
 
-## 6. Experiment Reproduction
-You should first checkout the 105 bugs in Catena4j and then repair these 105 bugs
+
+## 7. Experiment Reproduction
+If you want to fully replicate our experiments on Recoder, please first checkout the 105 bugs in Catena4j and then repair these 105 bugs
 ```
 # Checkout 105 bugs
 ./checkout_105.sh
