@@ -123,9 +123,9 @@ rm -rf 105_bugs_with_src_backup/*
 
 ## 8. Structure of the Directories
 ```
-   |——./105_bugs_with_src/             //buggy project directory
-   |——./105_bugs_with_src_backup/      //buggy project directory backup
-   |——./105BugsFL/                     //FL results
+   |——./105_bugs_with_src/            //buggy project directory
+   |——./105_bugs_with_src_backup/     //buggy project directory backup
+   |——./105BugsFL/                    //FL results
    |——105_bugs.txt                    //bug_id list(only fix bugs within this file)
    |——time-info-gen.txt               //the time it takes to generate patches
    |——time-info.txt                   //the time it takes to generate and validate patches
@@ -134,8 +134,8 @@ rm -rf 105_bugs_with_src_backup/*
    |——requirements.sh                 //record necessary requirements
    |——recd_generate.sh                //start generate patches
    |——recd_validate.sh                //start validate patches
-   |——./final/                         //patch validation results
-   |——./patches/                       //patch generation results
+   |——./final/                        //patch validation results
+   |——./patches/                      //patch generation results
 ```
 
 If you have any questions, you can go to the [Recoder](https://github.com/pkuzqh/Recoder.git) repository or create issues for more information.
