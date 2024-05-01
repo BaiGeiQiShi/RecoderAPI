@@ -120,7 +120,7 @@ rm -rf 105_bugs_with_src_backup/*
 ./recd_validate.sh
 ```
 
-## 8. Key Files
+## 8. Structure of the Directories
 ```
    |——./105_bugs_with_src/             //buggy project directory
    |——./105_bugs_with_src_backup/      //buggy project directory backup
