@@ -52,6 +52,7 @@ git clone https://github.com/BaiGeiQiShi/RecoderAPI.git
 ① Install the additonal dependencies.
 ```shell
 cd ./RecoderAPI
+chmod +x *
 ./setup.sh
 source ~/.bashrc
 ```
