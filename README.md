@@ -1,5 +1,5 @@
 # Recoder
-This repository is used to replicate the experiments of article **"Towards Effective Multi-Hunk Bug Repair: Detecting, Creating, Evaluating, and Understanding Indivisible Bugs"** on Recoder. If you want to learn more about Recoder, please follow the original repository of [Recoder](https://github.com/pkuzqh/Recoder.git).
+This repository is used to replicate the experiments of article **"Detecting, Creating, Repairing, and Understanding Indivisible Multi-Hunk Bugs"** on Recoder. If you want to learn more about Recoder, please follow the original repository of [Recoder](https://github.com/pkuzqh/Recoder.git).
 
 ## 1. Modification
 We have made two modifications:
